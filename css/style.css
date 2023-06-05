@@ -52,13 +52,13 @@
 }
 
 .masInput {
-    width: max(300px, 80%);
+    width: 100%;
 }
 
 .marginsito {
     margin-bottom: 60px;
 }
 
-/* .form-group {
-    width: max-content;
-} */
+form {
+    width: 100%;
+}
