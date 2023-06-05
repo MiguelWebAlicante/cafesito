@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.backgroundBanner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/DreamShaper_v5_Coffee_background_web_artistic_colorful_landing_0.webp);
+    background-size: cover;
+}
+
+.fwh {
+    height: 90vh;
+}
+
+.tittle {  
+    font-size: 4rem;
+    color: white;
+}
+
+.enlace {
+    text-decoration: none;
+}
+
+.btnHeader {
+    width: 150px;
+    height: 60px;
+    background-color: #528c52;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.12rem;
+}
+
+.my-row .card {
+    height: 500px;
+}
+
+.card-img-custom {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.porDos {
+    height: 100px;
+}
+
+.enviar {
+    margin-top: 10px;
+}
+
+.masInput {
+    width: max(300px, 80%);
+}
+
+.marginsito {
+    margin-bottom: 60px;
+}
+
+/* .form-group {
+    width: max-content;
+} */

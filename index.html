@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coffee Shop HTML</title>
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <script src="aos-master/dist/aos.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="backgroundBanner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 p-5 fwh d-flex justify-content-center align-items-center flex-column">
+                    <h1 class="tittle" data-aos="fade-right"
+                    data-aos-anchor-placement="top-center" data-aos-duration="3000">Café Martínez</h1>
+                    <a href="#" class="enlace">
+                        <div class="btnHeader d-flex justify-content-center align-items-center" data-aos="fade-up"
+                         data-aos-duration="3000">
+                            Llámanos
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6"></div>
+            </div>
+        </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 vh-100 d-flex justify-content-center align-items-center text-center" data-aos="fade-up-right" data-aos-duration="1500">
+            <h2>
+                ¡Descubre nuestros productos de café de alta calidad y lleva a casa la experiencia del café perfecto!
+            </h2>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row my-row justify-content-center" data-aos="fade-up" data-aos-duration="1500">
+        <div class="col-sm-3">
+            <div class="card d-flex" >
+                <img class="card-img-top card-img-custom" src="img/Tazzina_di_caffè_a_Ventimiglia.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Espresso</h5>
+                  <p class="card-text">El espresso es un café fuerte y concentrado que se prepara con agua caliente a alta presión que se hace pasar a través de granos de café finamente molidos. Es la base de muchas bebidas de café, como el capuchino y el latte.</p>
+                  <a href="#" class="btn btn-primary">Pídelo</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card d-flex" >
+                <img class="card-img-top card-img-custom" src="img/café-americano.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Americano</h5>
+                  <p class="card-text">El americano es un café diluido que se prepara agregando agua caliente al espresso. Es una opción popular para aquellos que prefieren un sabor menos fuerte.</p>
+                  <a href="#" class="btn btn-primary">Pídelo</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card d-flex" >
+                <img class="card-img-top card-img-custom" src="img/Cappuccino_PeB.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">El cappuccino es una bebida de café italiana que se prepara con espresso, leche vaporizada y espuma de leche. Se sirve en una taza de cerámica y se adorna con una pizca de cacao en polvo.</p>
+                  <a href="#" class="btn btn-primary">Pídelo</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card d-flex" >
+                <img class="card-img-top card-img-custom" src="img/nespresso-recipes-Latte-Macchiato.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Latte</h5>
+                  <p class="card-text">El latte es una bebida de café suave que se prepara con espresso y leche vaporizada. Se sirve en un vaso alto y se puede aromatizar con jarabes de sabor, como vainilla o caramelo.</p>
+                  <a href="#" class="btn btn-primary">Pídelo</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row my-row p-5">
+        <div class="p-5 col-12 col-sm-12 flex-column d-flex justify-content-center align-items-center" data-aos="fade-up">
+            <h2 class="marginsito">Contacto:</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" class="form-control masInput" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control masInput" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="asunto">Asunto:</label>
+                  <input type="text" class="form-control porDos masInput" id="asunto" name="asunto" required>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary enviar">Enviar</button>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>
+    
+
+
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
